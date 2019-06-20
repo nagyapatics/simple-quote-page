@@ -3,26 +3,26 @@ box-sizing: border-box;}
 
 .wrap {
   height: 100vh;
-  width: 100vw;
-  background-image:url("simple.jpg");
+  width: 100%;
+  background: url("simple.jpg") no-repeat center;
   background-size: cover;
 }
-.idezet {
+.quote {
   text-align: center;
   text-transform: uppercase;
   font-size: 2.3rem;
-  padding: 5rem 5rem 1rem 5rem;
+  padding: 3rem 5rem 1rem 5rem;
   line-height: 180%;
   color: rgb(134, 121, 121);
   
 }
-.iro {
+.author {
   text-align: center;
   font-style:italic;
   font-size: .9rem;
   color: rgb(134, 121, 121);
 }
-.iro::before {
+.author::before {
   display: inline-block;
   content: "";
   background-color: rgb(134, 121, 121);
